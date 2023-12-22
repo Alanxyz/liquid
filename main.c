@@ -26,7 +26,7 @@ typedef struct {
 static void die(char *errstr, ...);
 static config_t initialconfiguration(system_t *s);
 static system_t* newsystem(int nlateral, float fillfract);
-void printsystem(system_t *s);
+static void printsystem(system_t *s);
 
 void
 die(char *errstr, ...)
